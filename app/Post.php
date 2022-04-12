@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Post extends Model
 {
     // テーブルの関連付け
-    protected $table = 'post';
+    protected $table = 'posts';
 
     // 更新可能な項目の設定
     protected $fillable = [

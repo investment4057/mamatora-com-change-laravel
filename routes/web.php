@@ -15,4 +15,4 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('post', 'postController');
+Route::resource('/post', 'postController');
