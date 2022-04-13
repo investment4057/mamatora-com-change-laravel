@@ -1,3 +1,6 @@
+@extends('layouts.app')
+
+@section('content')
 <h1>編集画面</h1>
 <p><a href="{{ route('post.index')}}">一覧画面</a></p>
 
@@ -14,3 +17,4 @@
     <p>状態：<input type="text" name="finished" value="{{ $post->finished }}"></p>
     <input type="submit" value="編集する">
 </form>
+@endsection

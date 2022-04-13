@@ -1,3 +1,6 @@
+@extends('layouts.app')
+
+@section('content')
 <h1>一覧画面</h1>
 <p><a href="{{ route('post.create') }}">新規追加</a></p>
 
@@ -27,3 +30,4 @@
     </tr>
     @endforeach
 </table>
+@endsection
